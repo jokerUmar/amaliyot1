@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.works{
+  margin-top: 118px;
+}
+
+.works_cashback-card{
+  border-radius: 21px;
+  margin-bottom: 120px;
+  display: flex;
+  align-items: center;
+  background-color: #FDF4F4;
+  padding: 40px 87px 25px 100px;
+}
+
+.cashback_card-left__title{
+  font-size: 32px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  line-height: 52.5px;
+  margin-bottom: 28px;
+}
+
+.cashback_card-left__text{
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36.5px;
+  width: 620px;  
+  margin-right: 62px;
+}
+
+.works_cashback-card__img{
+  width: 381px;
+  height: 150px;
+}
+
+.section__title{
+  font-weight: 700;
+  font-size: 30px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.works__title{
+  width: 508px;
+  margin: 0 auto;
+  text-align: center;
+  line-height:40px;
+  margin-bottom: 72px;
+  color: #272D4E;
+}
+
+.works_data{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 119px;
+}
+
+.works_data-card{
+text-align: center;
+}
+
+.works_data-card__title{
+  width: 50px;
+  height: 50px;
+  box-shadow: 0px 12.375px 24.75px rgba(0, 0, 0, 0.11);
+  border-radius: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 10px;
+  font-family: 'Roboto';
+  color: #EB242A;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.line-before::after{
+  content: "";
+  height: 2px;
+  background-color: #C8C8C8;
+  width: 284.5px;
+  position: absolute;
+  left: 70px;
+  top: 25px;
+}
+
+.line-after::before{
+  content: "";
+  height: 2px;
+  background-color: #C8C8C8;
+  width: 284.5px;
+  position: absolute;
+  left: -300px;
+  top: 33px;
+}
+
+
+
+.works_data-card__bold{
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 5px;
+  color: #272D4E;
+}
+
+.works_data-card__text{
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #57606A;
+  width: 292px;
+}
+
+.title-m0{
+  margin-bottom: 0;
+}
+
+.works_content__text{
+  color: #57606A;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 90px;
+}
+
+.works_user-box{
+  display: flex;
+  justify-content: space-around;
+}
+
+.works_user-box_card{
+  width: 500px;
+  background-color: #EB242A;
+  border-radius: 21px;
+  display: flex;    
+  padding: 35px 73px 29px 52px;
+}
+
+.works_user-box_card__img{
+  width: 40px;
+  height: 30px;
+}
+
+.works_user-box_card__img1{
+  width: 39px;
+  height: 39px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-left: 25px;
+}
+
+.works_user-card_data__title{
+  color: #fff;
+  font-family: 'Roboto';
+  margin-left: 20px;
+  font-size: 22px;
+}
+
+.works_user-card_data__text{
+  margin-top: 11px;
+  color: #fff;
+  font-family: 'Roboto';
+  margin-left: 20px;
+  font-size: 16px;
+  width: 291px;
+}
+
+.works_user-box_card-bg{
+  background-color: #fff;
+  border: #EB242A solid 2px;
+}
+
+
+.change-title{
+  color: #001A49;
+}
+
+.change-text{
+  color:#001A49;
+}
+
+.works_user-box_card__image{
+  background-color: #001A49;
+}
+
+.works_foot{
+  background-color: #EB242A;
+}
+
+.works_foot>.container{
+  margin-top: 200px;
+  display: flex;
+  padding: 54px 166px 42px 170px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.works_foot__text{
+  font-size: 26px;
+  width: 409px;
+  color: #fff;
+}
+
+.button-img{
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: -48px;
+  top: 16px;
+}
+
+
+input{
+  padding: 21px 112px 21px 39px;
+  border-radius: 48.11px;
+  border: none;
+}
+
+@media screen and (max-width:320px) {
+   .container{
+    max-width: 300px;
+    margin: 0 auto; 
+  } 
+
+  .works_cashback-card{
+    display: block;
+    width: 299px;
+    margin: 0 auto;
+    padding: 43px 23px 51px 21px;
+  }
+    
+
+.cashback_card-left__title{
+  font-size: 28px;
+}
+
+.cashback_card-left__text{
+  font-size: 18px;
+  line-height: 36.5px;
+  width: 255px;  
+}
+
+.works_cashback-card__img{
+  width: 251px;
+  height: 100px;
+  margin-left: 0;
+}
+
+   .works__title{
+    width: 299px;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+  } 
+
+   .works_data{
+     display: none;
+   }
+
+   .works_content{
+     display: none;
+   }
+
+   .works_user-box{
+     display: none;
+   }
+
+  .works_foot{
+    display: none;
+  }
+
+}
